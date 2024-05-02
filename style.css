@@ -10,29 +10,29 @@ body  {
 }
 
 .container {
-    height: 70vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .box {
-    height: 60vmin;
-    width: 60vmin;
+    height: 40vmin;
+    width: 40vmin;
     display: flex;
     justify-content: center ;
     align-items: center;
     flex-wrap: wrap;
-    gap:1.5vmin;
+    gap:0.5vmin;
 }
 
 .btn {
-    height: 18vmin;
-    width: 18vmin;
+    height: 13vmin;
+    width: 13vmin;
     border-radius: 1rem;
     border: none;
     box-shadow: 0 0 1rem rgba(0,0,0,0.3);
-    font-size: 8vmin;
+    font-size: 6vmin;
     color: #b0413e;
 }
 
@@ -42,5 +42,34 @@ body  {
     border-radius: 1rem;
     border: none;
     background-color: black;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
     color: #fff;
+}
+
+#new-game {
+    padding: 1rem;
+    font-size: 1.25rem ;
+    border-radius: 1rem;
+    border: none;
+    background-color: black;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+.line {
+    height: 1vmin;
+    width: 40vmin;
+    background-color: black;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.win {
+    height: 40vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
